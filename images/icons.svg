@@ -70,5 +70,8 @@
     <symbol id="icon-footer-btn" viewBox="0 0 32 32">
       <path d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z"/>
     </symbol>
+    <symbol id="icon-burger" viewBox="0 0 43 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M5.704 21.379h31.508M5.704 11.451h31.508M5.704 1.523h31.508"></path>
+    </symbol>
   </defs>
 </svg>
