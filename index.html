@@ -19,130 +19,133 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/mobile-styles.css">
-    <link rel="stylesheet" href="./css/tablet-styles.css">
-    <link rel="stylesheet" href="./css/dekstop.css">
+    <link rel="stylesheet" href="./css/mob-320.css">
+    <link rel="stylesheet" href="./css/mobile-styles.css" />
+    <link rel="stylesheet" href="./css/tablet-styles.css" />
+    <link rel="stylesheet" href="./css/dekstop.css" />
   </head>
   <body>
     <header class="header container">
       <div class="mobile-navigation">
-      <div class="container header-container">
-        <!--Navigation-->
-        <nav class="header-navigation">
-          <!--Logo-->
-          <a class="header-logo link" href="./index.html"
-            >Web<span class="header-logo-color">Studio</span></a
-          >
-          <ul class="header-list list">
-            <li class="header-list-item">
-              <a class="header-list-link link current" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li class="header-list-item">
-              <a class="header-list-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="header-list-item">
-              <a class="header-list-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <!--Contacts-->
-        <address class="header-contact">
-          <ul class="contact-list list">
-            <li class="contact-item">
-              <a class="contact-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-item">
-              <a class="contact-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="container header-container">
+          <!--Navigation-->
+          <nav class="header-navigation">
+            <!--Logo-->
+            <a class="header-logo link" href="./index.html"
+              >Web<span class="header-logo-color">Studio</span></a
+            >
+            <ul class="header-list list">
+              <li class="header-list-item">
+                <a class="header-list-link link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-list-item">
+                <a class="header-list-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-list-item">
+                <a class="header-list-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <!--Contacts-->
+          <address class="header-contact">
+            <ul class="contact-list list">
+              <li class="contact-item">
+                <a class="contact-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <a class="contact-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="menu-open-btn-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
-      <button type="button" class="menu-open-btn " data-menu-open>
-        <svg class="menu-open-btn-icon" width="32" height="22">
-          <use href="./images/icons.svg#icon-burger"></use>
-        </svg>
-      </button> 
-    </div>
-    <div class="mob-menu is-hidden" data-menu>
-      <div> 
-      <button class="menu-close-btn" data-menu-close type="button">
-        <svg class="menu-close-btn-icon" width="8" height="8">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
-      <nav>
-      <ul class="mob-menu-list list">
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-list-link link current" href="./index.html"
-            >Studio</a
-          >
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-list-link link" href="./portfolio.html"
-            >Portfolio</a
-          >
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-list-link link" href="">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div>
-    <address class="mob-menu-contact">
-      <ul class="mob-menu-contact-list list">
-        <li class="mob-menu-contact-item">
-          <a class="mob-tel-contact-link link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-        <li class="mob-menu-contact-item">
-          <a class="mob-email-contact-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-    </address>
-    <ul class="mob-menu-soc-list list">
-      <li class="mob-menu-soc-item">
-        <a class="mob-menu-soc-link link" href="">
-          <svg class="mob-menu-soc-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="mob-menu-soc-item">
-        <a class="mob-menu-soc-link link" href="">
-          <svg class="mob-menu-soc-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-twitter"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="mob-menu-soc-item">
-        <a class="mob-menu-soc-link link" href="">
-          <svg class="mob-menu-soc-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="mob-menu-soc-item">
-        <a class="mob-menu-soc-link link" href="">
-          <svg class="mob-menu-soc-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-linkedin"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </div>
-    </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button class="menu-close-btn" data-menu-close type="button">
+            <svg class="menu-close-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-list-link link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-list-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-list-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <address class="mob-menu-contact">
+            <ul class="mob-menu-contact-list list">
+              <li class="mob-menu-contact-item">
+                <a class="mob-tel-contact-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-menu-contact-item">
+                <a
+                  class="mob-email-contact-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-menu-soc-list list">
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link link" href="">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link link" href="">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link link" href="">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link link" href="">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!--Section 1-->
@@ -251,11 +254,12 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img 
-              srcset="./images/team-mark-x2.jpg 2x"
-              src="./images/mark.jpg" 
-              alt="man" 
-              width="264" />
+              <img
+                srcset="./images/team-mark-x2.jpg 2x"
+                src="./images/mark.jpg"
+                alt="man"
+                width="264"
+              />
               <div class="team-card-text">
                 <h3 class="team-name-title">Mark Guerrero</h3>
                 <p class="team-bottom-text">Product Designer</p>
@@ -292,11 +296,12 @@
               </div>
             </li>
             <li class="team-item">
-              <img 
-              srcset="./images/team-tom-x2.jpg 2x"
-              src="./images/tom.jpg" 
-              alt="man" 
-              width="264" />
+              <img
+                srcset="./images/team-tom-x2.jpg 2x"
+                src="./images/tom.jpg"
+                alt="man"
+                width="264"
+              />
               <div class="team-card-text">
                 <h3 class="team-name-title">Tom Ford</h3>
                 <p class="team-bottom-text">Frontend Developer</p>
@@ -333,11 +338,12 @@
               </div>
             </li>
             <li class="team-item">
-              <img 
-              srcset="./images/team-camila-x2.jpg 2x"
-              src="./images/camila.jpg" 
-              alt="woman" 
-              width="264" />
+              <img
+                srcset="./images/team-camila-x2.jpg 2x"
+                src="./images/camila.jpg"
+                alt="woman"
+                width="264"
+              />
               <div class="team-card-text">
                 <h3 class="team-name-title">Camila Garcia</h3>
                 <p class="team-bottom-text">Marketing</p>
@@ -374,9 +380,12 @@
               </div>
             </li>
             <li class="team-item">
-              <img 
-              srcset="./images/team-daniel-x2.jpg 2x"
-              src="./images/daniel.jpg" alt="man" width="264" />
+              <img
+                srcset="./images/team-daniel-x2.jpg 2x"
+                src="./images/daniel.jpg"
+                alt="man"
+                width="264"
+              />
               <div class="team-card-text">
                 <h3 class="team-name-title">Daniel Wilson</h3>
                 <p class="team-bottom-text">UI Designer</p>
@@ -543,7 +552,7 @@
               <input
                 type="text"
                 name="user_name"
-                class="modal-form-imput"
+                class="modal-form-input"
                 required
                 pattern="^[a-zA-Zа-яА-Я]+$"
               />
@@ -558,7 +567,7 @@
               <input
                 type="tel"
                 name="user_phone"
-                class="modal-form-imput"
+                class="modal-form-input"
                 required
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="xxx-xxx-xx-xx"
@@ -574,7 +583,7 @@
               <input
                 type="email"
                 name="user_email"
-                class="modal-form-imput"
+                class="modal-form-input"
                 required
               />
               <svg class="modal-input-icon" width="15" height="12">

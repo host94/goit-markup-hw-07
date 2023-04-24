@@ -71,12 +71,13 @@ body {
   list-style: none;
 }
 .container {
-  width: 100%;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .section {
   padding-top: 120px;
@@ -160,6 +161,7 @@ body {
 }
 .contact-list {
   display: flex;
+  gap: 40px;
 }
 .contact-item {
 }
@@ -517,6 +519,7 @@ body {
 .footer-dis {
   max-width: 264px;
   margin-right: 120px;
+  
 }
 .footer-logo {
   font-weight: 800;
@@ -539,6 +542,7 @@ body {
 }
 
 .footer-social {
+  margin-right: 80px;
 }
 .footer-soc-title {
   font-weight: 500;
@@ -822,7 +826,7 @@ body {
   position: relative;
   display: block;
 }
-.modal-form-imput {
+.modal-form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -830,7 +834,7 @@ body {
   padding-left: 38px;
   transition: var(--transitio-border-color);
 }
-.modal-form-imput:focus {
+.modal-form-input:focus {
   outline: none;
   border-color: #4d5ae5;
 }
@@ -847,7 +851,7 @@ body {
   letter-spacing: 0.01em;
   color: #8e8f99;
 }
-.modal-form-imput:focus + .modal-input-icon {
+.modal-form-input:focus + .modal-input-icon {
   fill: #4d5ae5;
 }
 .modal-form-message {
